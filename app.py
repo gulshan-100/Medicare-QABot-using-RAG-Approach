@@ -16,9 +16,9 @@ def ask():
         return jsonify({'answer': "No question provided."}), 400
 
     try:
-        print(f"Received question: {question}")  # Debug print
+        print(f"Received question: {question}") 
         answer = qa.invoke(question).get("result")
-        print(f"Generated answer: {answer}")  # Debug print
+        print(f"Generated answer: {answer}")  
         if not answer:
             answer = "No answer found."
     except Exception as e:

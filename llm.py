@@ -8,7 +8,8 @@ load_dotenv(find_dotenv())
 
 # Initialize the Groq model
 groq_model = ChatGroq(
-    model="llama3-70b-8192"
+    model="llama3-70b-8192",
+    temperature=0.0
 )
 
 def create_qa_chain():
