@@ -59,5 +59,7 @@ This chatbot uses a RAG approach to provide informative responses based on a kno
 The frontend is a simple HTML page with CSS styling and JavaScript for handling user interactions. It sends questions to the backend API and displays the responses.
 
 **Demo Video**
-[Project Demo](https://github.com/gulshan-100/Medicare-QABot-using-RAG-Approach/blob/main/Demo_video.mp4)]
+[Project Demo](https://github.com/user-attachments/assets/dd885dcf-c562-46e2-9e60-05f8a4c59342)
+
+
 
