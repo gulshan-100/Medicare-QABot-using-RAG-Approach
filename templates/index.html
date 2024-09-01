@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Medicare Assistant</h1>
+            <p>Your 24/7 guide to Medicare queries</p>
+        </header>
+        
+        <main>
+            <div class="chat-container" id="chatbox"></div>
+            
+            <div class="input-area">
+                <input type="text" id="question" placeholder="Ask about Medicare..." autofocus>
+                <button id="send-btn"><i class="fas fa-paper-plane"></i>Send</button>
+            </div>
+
+            <div class="features">
+                <button id="clear-chat"><i class="fas fa-trash"></i> Clear Chat</button>
+                <button id="download-chat"><i class="fas fa-download"></i> Download Chat</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
