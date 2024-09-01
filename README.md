@@ -59,7 +59,8 @@ This chatbot uses a RAG approach to provide informative responses based on a kno
 The frontend is a simple HTML page with CSS styling and JavaScript for handling user interactions. It sends questions to the backend API and displays the responses.
 
 **Demo Video**
-[Project Demo](https://github.com/user-attachments/assets/dd885dcf-c562-46e2-9e60-05f8a4c59342)
+
+https://github.com/user-attachments/assets/57b19c32-de92-44fd-9a7b-53ac0c83f9f9
 
 
 
